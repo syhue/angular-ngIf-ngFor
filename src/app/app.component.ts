@@ -13,5 +13,7 @@ export class AppComponent {
   onShowTable() {
     this.isTableShow = true;
   }
+
+
   
 }

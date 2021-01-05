@@ -7,7 +7,8 @@
     <tr *ngFor="let user of people" >
         <td mat-cell class="cells">{{user.name}}</td>
         <td mat-cell class="cells">{{user.email}}</td>
-        <td mat-cell class="cells">{{user.status}}</td>
+        <td mat-cell class="cells" [ngStyle]="{'color':user.status === 'inactive' ? 'red' : 'green'}">{{user.status}}</td>
     </tr>
 </table>
   
+
