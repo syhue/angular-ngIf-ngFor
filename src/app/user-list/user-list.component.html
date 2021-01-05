@@ -1,0 +1,13 @@
+<table class="mat-elevation-z8">
+    <thead>
+        <th mat-header-cell class="header">Name</th>
+        <th mat-header-cell class="header">Email</th>
+        <th mat-header-cell class="header">Status</th>
+    </thead>
+    <tr *ngFor="let user of people" >
+        <td mat-cell class="cells">{{user.name}}</td>
+        <td mat-cell class="cells">{{user.email}}</td>
+        <td mat-cell class="cells">{{user.status}}</td>
+    </tr>
+</table>
+  

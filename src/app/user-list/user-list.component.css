@@ -1,0 +1,16 @@
+.cells{
+    padding: 2rem;
+    background-color: #f1faee;
+    color: #14213d;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.header{
+    padding: 2.1rem;
+    font-size: 1.3rem;
+    color: #1d3557;
+    background-color: #a8dadc;
+    border: none;
+    margin: 0px;
+}
